@@ -1,5 +1,5 @@
 """
-WSGI config for web1 project.
+WSGI config for web2 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "web1.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "web2.settings")
 
 application = get_wsgi_application()
